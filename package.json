@@ -1,0 +1,39 @@
+{
+  "name": "node_api_rest",
+  "version": "1.0.0",
+  "description": "api rest full con node y express.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec npm run serve",
+    "serve": "babel-node index.js",
+    "start": "node index.js",
+    "lint": "eslint"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "Gregorys Gonzalez <gregorysgonzalez@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "eslint": "^8.3.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "faker": "^5.5.3",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.0"
+  },
+  "dependencies": {
+    "@hapi/boom": "^9.1.4",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "joi": "^17.5.0"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
